@@ -10,7 +10,8 @@ main {
 
 aside  {
     margin: auto; 
-    text-align: center;   
+    text-align: center;
+    position:relative;
 }
 
 aside img {
@@ -19,7 +20,7 @@ aside img {
 }
 
 aside h2 {
-    position:absolute;
+    position:relative;
     top:auto;
     left:auto;
 }
