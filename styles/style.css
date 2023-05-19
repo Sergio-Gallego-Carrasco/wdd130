@@ -7,11 +7,17 @@
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
-    color: navy;
+    color: black;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
-    color:navy;
+    color:rgb(14, 183, 240);
+    border-bottom: 1px solid #000;
 }
 
 .grid {
@@ -20,16 +26,16 @@ h1 {
 }
 main {
     max-width: 840px;
-    grid-column: 2/3;
+    grid-column: 2;
     margin: 1rem;
 }
 
 aside  {
-    margin: auto; 
+    margin: 20rem; 
     text-align: center;
     position:relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 aside img {
@@ -45,7 +51,7 @@ aside h2 {
 
 main img {
     width: 150px;
-    height: auto;
+    height: 200px;
     float: right;
 }
 
@@ -61,17 +67,25 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: solid rgb(235, 10, 92);
+    border: solid rgb(14, 183, 240);
     padding: 1rem;
     background-color: #eee;
     color: #333;
 }
 
+.box-2 {
+    border: solid lightblue;
+    margin: 2%;
+    padding: 2%;
+    background-color: gainsboro;
+
+}
+
 nav {
-    background-color: navy;
+    background-color: rgb(14, 183, 240);
     padding: 1rem;
     display:flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
 }
 
